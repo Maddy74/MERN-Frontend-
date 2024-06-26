@@ -1,0 +1,20 @@
+.brands{
+  margin-left: 40px;
+  margin-top: 115px;
+}
+
+.brands span{
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-size: 40px;
+}
+
+.caursol{
+  margin-top: 15px;
+  margin-left: 15px;
+}
+
+.caursol img{
+  height: 100%;
+  width: 100%;
+}

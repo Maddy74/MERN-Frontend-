@@ -1,0 +1,41 @@
+.recommened span{
+    font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 40px;
+  margin-left: 40px;
+}
+
+.listing-img{
+  margin-top: 30px;
+  margin-left: 45px;
+}
+
+.listing-img img{
+  height: 90%;
+  width: 90%;
+  border-radius: 8px;
+}
+
+.product-descrip{
+  padding-top: 20px;
+}
+.desc-name{
+  font-family: "Arimo", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 15px;
+}
+
+.old-price{
+  text-decoration: line-through;
+}
+.new-price{
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.offer{
+  color: red;
+}

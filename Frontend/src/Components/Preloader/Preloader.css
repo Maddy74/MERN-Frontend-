@@ -1,0 +1,46 @@
+.preloader{
+    height: 100vh;
+    width: 100%;
+    /* background-color: whitesmoke; */
+    /* background-image: linear-gradient(to top, #dfe9f3 0%, white 100%); */
+    background-image: linear-gradient(to top, #dfe9f3 0%, white 100%);
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 55;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+.preloader .welcome{
+    font-family: 'Roboto', sans-serif;
+    font-size: 50px;
+    font-weight: 300;
+    position: relative;
+    bottom: 30px;
+}
+
+
+.logo{
+    width: 200px;
+    height: 150px;
+    mix-blend-mode: multiply;
+    position: relative;
+    bottom: 35px;
+}
+.preloader .text-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 90px;
+    width: 350px;
+    font-family: 'Protest Guerrilla', sans-serif;
+    font-size: 50px;
+    overflow: hidden;
+    position: relative;
+    bottom: 28px;
+}

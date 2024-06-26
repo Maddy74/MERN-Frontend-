@@ -1,0 +1,101 @@
+.filter{
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 30px;
+    padding-left: 15px;
+}
+
+.line{
+    width: 100wh;
+    border: 1px solid #e5e5e5;
+    margin-top: 12px;
+}
+.sidebar{
+    padding-top: 30px;
+    /* width: 200px; */
+    height: 120vh;
+    /* position: fixed;
+    top: 0;
+    left: 0;
+    overflow-y: auto; */
+}
+.sidebar-content{
+    width: 100%;
+    font-family: "Poppins", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+  font-size: 16px;
+  padding-top: 30px;
+}
+
+.category  input {
+    margin-right: 5px;
+}
+
+.category {
+    display: block;
+    position: relative;
+    cursor: pointer;
+    flex-direction: column;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 14px;
+    padding-top: 6px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.checkmark{
+    position: absolute;
+    top: 27%;
+    left: 2%;
+    margin-left: -4px;
+    height: 15px;
+    width: 15px;
+    background-color: #eee;
+    border-radius: 50%;
+}
+
+.checkmark::after{
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+.sidebar-label-container input:checked  ~.checkmark::after{
+    display: block;
+}
+
+
+.sidebar-label-container .checkmark::after {
+    top: 3.5px;
+    left: 3.5px;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background-color: white;
+}
+
+/* .line{
+    margin-top: 3rem;
+    border-color: #f7f7f7;
+} */
+
+.sidebar-label-container:hover input ~.checkmark{
+    background-color: #ccc;
+}
+.sidebar-label-container input:checked ~.checkmark{
+    background-color: #2196f3;
+}
+
+.content1,
+.content2,
+.content3,
+.content4 {
+  margin-left: 15px;
+  margin-top: 20px;
+}

@@ -1,0 +1,96 @@
+.wishlist-container{
+    display: flex;
+    flex-direction: column;
+}
+
+.wishlist-empty p{
+    font-family: "Poppins", sans-serif;
+    font-size: 25px;
+    font-weight: 600;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.wishlist-item-image {
+    width: 15%;
+    height: auto;
+    padding-top: 20px;
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+.wishlist-item-content{
+    display: flex;
+    flex-direction: column; /* Keeps name and title aligned vertically */
+    margin-left: 20px;
+    margin-top: 12px;
+    line-height: 1.9;
+}
+
+.wishlist-item{
+    display:flex;
+    align-items: flex-start;
+  padding: 10px;
+  border-bottom: 1px solid #ccc;
+}
+
+.wishlist-item-name span{
+    font-family: "Poppins", sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.wishlist-item-newprice span{
+    font-family: "Poppins", sans-serif;
+    font-size: 23px;
+}
+.wishlist-item-oldprice span{
+    font-family: "Poppins", sans-serif;
+    text-decoration: line-through;
+    font-size: 18px;
+}
+
+.wishlist-item-offer span{
+        font-family: "Poppins", sans-serif;
+        color: red;
+        font-size: 18px;
+}
+
+.wishlist-cart-btn{
+    position: absolute;
+    top: 55%;
+    left: 18%;
+}
+.wishlist-cart-btn button{
+    width: 10rem;
+    height: 3rem;
+    font-weight: 600;
+    font-size: 15px;
+    text-transform: uppercase;
+    background-color: #273349;
+    color: white;
+    border: none;
+    border-radius: 8px;
+}
+
+.wishlist-cart-btn button:hover{
+    opacity: 0.5;
+    background-color: #273349;
+}
+
+.wishlist-added-to-cart-message p{
+    width: 140px;
+    height: 30px;
+}
+.wishlist-added-to-cart-message p{
+    background-color: #28a745; /* Green to indicate success */
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+  text-align: center;
+  font-size: 14px;
+  position: absolute; 
+  top: 20px; 
+  right: 20px; 
+  z-index: 10; 
+}

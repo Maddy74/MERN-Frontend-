@@ -1,0 +1,163 @@
+.sports{
+    padding-top: 30px;
+    position: relative;
+}
+
+.sbanner img{
+    width: 100%;
+    height: auto;
+}
+
+.s-contents span{
+    font-family: "Poppins", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+    font-size: 25px;
+    color: white;
+    position: absolute;
+    top: 35%;
+    left: 42%;
+}
+.s1-contents span{
+    font-family: "Poppins", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+    font-size: 90px;
+    color: white;
+    position: absolute;
+    top: 40%;
+    left: 30%;
+}
+
+.sports-btn{
+    position: absolute;
+    top: 60%;
+    left: 43%;
+}
+
+.sports-btn button{
+    width: 12rem;
+    height: 3rem;
+    font-weight: 600;
+    font-size: 15px;
+    text-transform: uppercase;
+    background-color: #333333;
+    color: white;
+    border: none;
+    border-radius: 8px;
+}
+
+.sports-btn button:hover{
+    background-color: rgb(248, 108, 108);
+    color: white;
+    text-decoration: underline;
+}
+
+.puma-run h1{
+    font-size: 55px;
+    margin-left: 40px;
+    margin-top: 20px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+}
+.running-pumashoe {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    padding-top: 10px;
+}
+.running-pumashoe img{
+    width: 30%;
+    height: auto;
+}
+.running-pumashoe video{
+    width: 30%;
+  height: auto;
+}
+
+/* FOOTBALL */
+.football video{
+    padding-top: 30px;
+    width: 100%;
+  height: auto;
+}
+.football video{
+    width: 100%;
+  height: auto;
+}
+
+.football-content {
+    padding-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+.football-content span{
+    font-family: "Poppins", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+    font-size: 35px;
+}
+.football-banner{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    padding-top: 10px;
+}
+
+.football-banner img{
+    width: 30%;
+    height: auto;
+}
+.football-banner2 img{
+    width: 100%;
+    height: auto;
+}
+.football-banner2{
+    padding-top: 30px;
+}
+
+/* cricket */
+.cricket-banner img{
+    width: 100%;
+    height: auto;
+}
+.cricket-banner{
+    padding-top: 20px;
+    position:relative ;
+}
+
+.cricket-content{
+    position: absolute;
+    top: 30%;
+    left: 25%;
+}
+.cricket-content span{
+    font-family: "Poppins", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+    font-size: 40px;
+    color: white;
+}
+.cricket-btn{
+    position: absolute;
+    top: 45%;
+    left: 45%;
+}
+.cricket-btn button{
+    width: 8rem;
+    height: 3rem;
+    font-weight: 600;
+    font-size: 15px;
+    text-transform: uppercase;
+    background-color: white;
+    color: black;
+    border: none;
+    border-radius: 8px;
+}
+
+.cricket-btn button:hover{
+    background-color: lightgray;
+    color: white;
+    text-decoration: underline;
+}

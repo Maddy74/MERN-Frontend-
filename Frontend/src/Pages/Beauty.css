@@ -1,0 +1,58 @@
+.perfume{
+    position: relative;
+}
+
+.evevan{
+    width: 100%;
+    height: auto;
+    padding-top: 40px;
+}
+
+.evevan img{
+    width: 100%;
+    height: auto;
+}
+
+.perfume-content1 span{
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 60px;
+    position: absolute;
+    top: 40%;
+    left: 60%;
+    color: #2d2d2d;
+}
+.perfume-content2 span{
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 20px;
+    position: absolute;
+    top: 55%;
+    left: 72%;
+    color: #2d2d2d;
+    line-height: 0.6;
+}
+
+.pbtn{
+    position: absolute;
+    top: 60%;
+    left: 88%;
+}
+.pbtn button{
+    width: 8rem;
+    height: 3rem;
+    font-weight: 600;
+    font-size: 15px;
+    text-transform: uppercase;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 8px;
+}
+.pbtn button:hover{
+    background-color: black;
+    color: white;
+    text-decoration: underline;
+}

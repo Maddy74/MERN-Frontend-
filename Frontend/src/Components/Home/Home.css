@@ -1,0 +1,343 @@
+.order-discount{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: lightgray;
+    height: 60px;
+    margin-top: 10px;
+}
+
+
+.order-discount h1{
+    font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: medium;
+}
+.order-discount span{
+    font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: small;
+}
+
+.puma{
+  margin-top: 20px;
+  display: flex;
+}
+.puma img{
+    width: 100%;
+    height:auto;
+}
+
+.puma-text{
+  position: absolute;
+  top: 160%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding-left: 27rem;
+  
+}
+
+.puma-text h2{
+  color: white;
+  text-transform: uppercase;
+  font-size: 40px;
+}
+
+.textpuma{
+  color: white;
+  text-transform: uppercase;
+  font-size: 20px;
+  font-weight: 400;
+  letter-spacing: 2px;
+  text-shadow: 1px 2px 3px #00174f;
+}
+
+ .btn{
+  position: absolute;
+  top: 177%;
+  right: 46%;
+ }
+
+ button{
+  cursor: pointer;
+  /* padding: 21px 33px 12px 24px; */
+  width: 8rem;
+  height: 3rem;
+  font-weight: 600;
+  font-size: 15px;
+  text-transform: uppercase;
+  background-color: white;
+  border: none;
+ }
+
+ button:hover{
+  background-color: lightcyan;
+ }
+
+ .extra-discount img{
+    width: 100%;
+    height:auto;
+    object-fit: cover;
+    padding-top: 50px;
+ }
+
+ .discount-text{
+  position: absolute;
+  top: 345%;
+  right: 65%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding-left: 27rem;
+ }
+
+ .discount-text h2{
+  color: white;
+  text-transform: uppercase;
+  font-size: 40px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  width: max-content;
+}
+
+.textdisount{
+  color: white;
+  text-transform: uppercase;
+  font-size: 15px;
+  font-weight: 400;
+  letter-spacing: 2px;
+  width: 364px;
+  line-height: 160%;
+  text-shadow: 1px 2px 3px #00174f;
+}
+
+#shop-btn{
+  cursor: pointer;
+  /* padding: 21px 33px 12px 24px; */
+  width: 10rem;
+  height: 3rem;
+  font-weight: 600;
+  font-size: 15px;
+  text-transform: uppercase;
+  background-color: white;
+  border: none;
+ }
+
+ #shop-btn:hover{
+  background-color: lightcyan;
+  text-decoration: underline;
+ }
+
+.shop-men{
+  position: absolute;
+  top: 117%;
+  left: 54%;
+ }
+.shop-women{
+  position: absolute;
+  top: 117%;
+  left: 79%;
+ }
+
+.shopheadding{
+  padding-top: 20px;
+  padding-left: 40px;
+}
+
+ .shopheadding span{
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 40px;
+ }
+.gender{
+  display: flex; 
+  align-items: flex-start;
+  justify-content: space-evenly; 
+  padding-top: 30px;
+}
+
+.category-img img{
+  width: 75%;
+  height: auto;
+  margin-left: 45px;
+  border-radius: 8px;
+ }
+
+ .category-link{
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 20px;
+  margin-top: -45px;
+  margin-left: 54px;
+ }
+
+ .category-link span{
+  color: white;
+  text-decoration: underline;
+  text-underline-offset: 8px;
+  line-height: 1.3;
+  transition: background-color 0.5s ease;
+ }
+ .category-link span:hover{
+  background-color: white;
+  color: black;
+ }
+
+ .category-link span:hover::before{
+  background-color: white;
+  transition: top 0.3s ease;
+ }
+ 
+.banners-puma{
+  width: 100%;
+  height:37rem;
+  background-color: #c3d156;
+  margin-top: 100px;
+}
+
+.velocity{
+  padding-left: 30px;
+  padding-top: 50px;
+  font-weight: bold;
+  font-style: normal;
+  font-size: 20px;
+}
+.velocity span{
+  padding-left: 2px;
+  padding-top: 50px;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 25px;
+  line-height: 1.7;
+}
+
+.velo-btn{
+  padding-top: 18px;
+  cursor: pointer;
+  width: 8rem;
+  height: 3rem;
+  font-weight: 600;
+  font-size: 15px;
+  text-transform: uppercase;
+  border: none;
+}
+
+.velo-btn2{
+  margin-top: -47px;
+  padding-left: 150px;
+  cursor: pointer;
+  width: 8rem;
+  height: 3rem;
+  font-weight: 600;
+  font-size: 15px;
+  text-transform: uppercase;
+  border: none;
+}
+
+
+.velocity-btn2{
+  cursor: pointer;
+  width: 12rem;
+  height: 3rem;
+  font-weight: 600;
+  font-size: 15px;
+  text-transform: uppercase;
+  border: none;
+  margin-right: 20px;
+}
+
+.nitro video{
+  width: 50%;
+  height: 100%;
+  padding-top: 80px;
+  z-index: 2;
+  position: relative;
+}
+
+
+.video-pic{
+  margin-left: 600px;
+  margin-top: -700px;
+  position: relative; 
+  z-index: 1;
+}
+
+
+.video-pic img{
+  width: 95%;
+  height: 710px;
+}
+
+.dua-lipa{
+  padding-top: 50px;
+}
+
+.dua-banner{
+  position: relative;
+  display: inline-block;
+}
+
+.dua-banner img{
+  display: block;
+  width: 100%;
+  height:auto;
+  object-fit: cover;
+}
+
+.dua-contents{
+  position: absolute;
+  top: 720%;
+  left:8%;
+}
+
+.dua-contents h1{
+  color: white;
+  font-size: 40px;
+  text-transform: uppercase;
+  text-align: center;
+}
+.dua-contents h2{
+  color: white;
+  font-size: 25px;
+  font-weight: 350;
+  text-transform: uppercase;
+}
+.dua-contents p{
+  color: white;
+  font-size: 15px;
+  font-weight: 400;
+  text-align: center;
+  line-height: 2.1;
+}
+
+.dua-btn{
+  padding-top: 18px;
+  margin-left: -40px;
+  cursor: pointer;
+  width: 8rem;
+  height: 3rem;
+  font-weight: 600;
+  font-size: 15px;
+  text-transform: uppercase;
+  border: none;
+}
+
+.dua-btn2{
+  margin-top: -48px;
+  margin-left: 110px;
+  cursor: pointer;
+  width: 8rem;
+  height: 3rem;
+  font-weight: 600;
+  font-size: 15px;
+  text-transform: uppercase;
+  border: none;
+}

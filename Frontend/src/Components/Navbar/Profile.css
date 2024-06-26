@@ -1,0 +1,180 @@
+.profile-card{
+    width: 90%;
+    height: 120vh;
+    border-radius: 25px;
+    background-color: #F4F4FC;
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter: blur( 3.5px );
+-webkit-backdrop-filter: blur( 3.5px );
+border-radius: 10px;
+border: 1px solid rgba( 255, 255, 255, 0.18 );
+    margin-left: 60px;
+    margin-top: 20px;
+    }
+.card-type{
+    background-color: #E39FF6;
+    border-radius: 16px;
+    width: 50%;
+    height: 110vh;
+    position: relative;
+    top: 4%;
+    left: 2%;
+    }
+    
+.card-type img{
+    width: 100%;
+    height: auto;
+    position: absolute;
+    top: 5%;
+}
+
+.register span{
+    position: absolute;
+    top: 2%;
+    left: 80%;
+    font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 14px;
+}
+.register span b{
+    color: #89b6f3;
+    cursor: pointer;
+}
+
+.form span{
+    position: absolute;
+    top: 10%;
+    left: 65%;
+    line-height: 0.9;
+    font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 45px;
+}
+
+.login2 span{
+    position: absolute;
+    top: 20%;
+    left: 60%;
+    font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 20px;
+}
+.form form{
+    position: absolute;
+    top: 30%;
+    left: 60%;
+}
+
+form input{
+    width: 23rem;
+    height: 50px;
+    border-radius: 10px;
+    border-style: none;
+    margin-top: 20px;
+    outline: none;
+    text-align: center;
+}
+
+input::placeholder{
+    text-align: left;
+}
+
+.forgot-pwd span{
+    position: absolute;
+    top: 55%;
+    left: 82%;
+    font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 14px;
+  cursor: pointer;
+  padding-top: 10px;
+}
+
+.login-btn{
+    position: absolute;
+    top: 65%;
+    left: 60%;
+}
+.login-btn button{
+    width: 23rem;
+    height: 4rem;
+    background-color: #fe6b68;
+    border-radius: 12px;
+    color: white;
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+}
+.login-btn button:hover{
+    background-color: #fe6b68;
+    color: white;
+    box-shadow: 0 8px 24px 0 rgba( 31, 38, 135, 0.37 );
+}
+
+.other-login span{
+    position: absolute;
+    top: 80%;
+    left: 70%;
+    font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 16px;
+}
+
+.social-media-login1 img{
+    width: 5%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    position: absolute;
+    top: 87%;
+    left: 65%;
+    gap: 20px;
+    cursor: pointer;
+    transition: transform .2s;
+}
+
+.social-media-login1:hover img{
+    transform: scale(1.5);
+}
+
+.social-media-login2  img{
+    width: 5%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 85%;
+    left: 75%;
+    gap: 20px;
+    cursor: pointer;
+    transition: transform .2s;
+}
+
+.social-media-login2:hover img{
+    transform: scale(1.5);
+}
+
+.social-media-login3 img{
+    width: 5%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    position: absolute;
+    top: 87%;
+    left: 85%;
+    gap: 20px;
+    cursor: pointer;
+    transition: transform .2s;
+}
+.social-media-login3:hover img{
+    transform: scale(1.5);
+}

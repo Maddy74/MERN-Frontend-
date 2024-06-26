@@ -1,0 +1,46 @@
+.trends-products{
+    padding-top: 30px;
+    padding-left: 30px;
+  }
+  
+  .trends-products span{
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 60px;
+  }
+  
+  .trend-img{
+    margin-top: 30px;
+    margin-left: 45px;
+    
+  }
+  
+  .trend-img img{
+    height: auto;
+    width: 100%;
+    border-radius: 8px;
+  }
+  
+  .product-descrip{
+    padding-top: 20px;
+  }
+  .desc-name{
+    font-family: "Arimo", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 15px;
+  }
+  
+  .old-price{
+    text-decoration: line-through;
+  }
+  .new-price{
+    font-size: 20px;
+    font-weight: 500;
+  }
+  
+  .offer{
+    color: red;
+  }

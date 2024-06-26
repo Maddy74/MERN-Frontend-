@@ -1,0 +1,337 @@
+.men-banner{
+    margin-top: 20px;
+}
+.mbanner{
+    width: 100%;
+    height: auto;
+}
+.mbanner img{
+    width: 100%;
+    height: auto;
+}
+
+.mcontent1{
+    font-family: "Poppins", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+    font-size: 50px;
+    position: absolute;
+    top: 57%;
+    left: 50%;
+    color: #333333;
+}
+.mcontent2 span{
+    font-family: "Poppins", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+    font-size: 20px;
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    color: #A2A2A2;
+    line-height: 0.8;
+}
+.mcontent3 span{
+    font-family: "Poppins", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+    font-size: 50px;
+    position: absolute;
+    top: 75%;
+    left: 50%;
+    color: #A08D7C;
+    line-height: 0.9;
+}
+
+
+.m-btn{
+    position: absolute;
+    top: 85%;
+    left: 50%;
+}
+.m-btn button{
+    width: 8rem;
+    height: 3rem;
+    font-weight: 600;
+    font-size: 15px;
+    text-transform: uppercase;
+    background-color: #333333;
+    color: white;
+    border: none;
+    border-radius: 8px;
+}
+
+.m-btn button:hover{
+    background-color: rgb(248, 108, 108);
+    color: white;
+    text-decoration: underline;
+}
+
+
+.men-offer{
+    margin-top: 20px;
+    position: relative;
+    width: 100%;
+    height: auto;
+}
+
+.moffer{
+    margin-left: 20px;
+}
+.moffer img{
+    width: 45%;
+    height: auto;
+}
+.moffer1{
+    position: absolute;
+    margin-top: -70px;
+    top: 30%;
+    left: 50%;
+}
+.moffer1 img{
+    width: 90%;
+    height: auto;
+}
+
+.m1-content span{
+    font-family: "Poppins", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+    font-size: 20px;
+    color: #333333;
+    position: absolute;
+    left: 30%;
+    top: 20%;
+}
+.m2-content span{
+    font-family: "Poppins", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+    font-size: 24px;
+    color: #333333;
+    position: absolute;
+    left: 30%;
+    top: 30%;
+    line-height: 1.9;
+}
+.m2-content strong{
+    font-family: "Poppins", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+    font-size: 55px;
+    color: rgb(248, 108, 108);
+}
+
+.moffer-btn{
+    position: absolute;
+    top: 70%;
+    left: 30%;
+}
+
+.moffer-btn button{
+    width: 8rem;
+    height: 3rem;
+    font-weight: 600;
+    font-size: 15px;
+    text-transform: uppercase;
+    background-color: #333333;
+    color: white;
+    border: none;
+    border-radius: 8px;
+}
+
+.moffer-btn button:hover{
+    background-color: rgb(248, 108, 108);
+    color: white;
+    text-decoration: underline;
+}
+.m3-content{
+    font-family: "Poppins", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+    font-size: 24px;
+    color: white;
+    position: absolute;
+    left: 10%;
+    top: 20%;
+    line-height: 1.5;
+}
+.m4-content{
+    font-family: "Poppins", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+    font-size: 24px;
+    color: white;
+    position: absolute;
+    left: 10%;
+    top: 30%;
+    line-height: 2.5;
+}
+
+.m2offer-btn{
+    position: absolute;
+    top: 55%;
+    left: 10%;
+}
+
+.m2offer-btn button{
+    width: 7rem;
+    height: 3rem;
+    font-weight: 600;
+    font-size: 15px;
+    text-transform: uppercase;
+    background-color: #333333;
+    color: white;
+    border: none;
+    border-radius: 8px;
+}
+
+.m2offer-btn button:hover{
+    background-color: rgb(248, 108, 108);
+    color: white;
+    text-decoration: underline;
+}
+
+.marquee{
+    margin-top: 20px;
+}
+
+.mar-content{
+    background-color: black;
+    color: white;
+    width: 100%;
+    height: 40px;
+}
+.mar-content span{
+    background-color: black;
+    color: white;
+    font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+  display: flex;
+  flex-direction: row;
+  padding: 10px;
+}
+
+
+
+
+
+.trend-heading{
+    padding-top: 40px;
+    padding-left: 50px;
+    color: #212121;
+    font-family: "Poppins", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+  font-size: 30px;
+}
+
+.menbanner-offer{
+    padding-top: 30px;
+    position: relative;
+}
+.menbanner-offer img{
+    width: 100%;
+    height: auto;
+}
+
+.banneroffer-content1{
+    font-family: "Poppins", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+  font-size: 30px;
+  position: absolute;
+  top: 40%;
+  left: 10%;
+}
+.banneroffer-content2{
+    font-family: "Poppins", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+  font-size: 30px;
+  position: absolute;
+  top: 50%;
+  left: 10%;
+  line-height: 0.3;
+}
+
+.men-btn{
+    position: absolute;
+    top: 55%;
+    left: 10%;
+}
+
+.men-btn button{
+    width: 7rem;
+    height: 3rem;
+    font-weight: 600;
+    font-size: 15px;
+    text-transform: uppercase;
+    background-color: #333333;
+    color: white;
+    border: none;
+    border-radius: 8px;
+}
+
+.men-btn button:hover{
+    background-color: rgb(248, 108, 108);
+    color: white;
+    text-decoration: underline;
+}
+
+.menbanner2-offer{
+    padding-top: 30px;
+    position: relative;
+}
+.menbanner2-offer img{
+    width: 100%;
+    height: auto;
+}
+
+.banneroffer-content3{
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 45px;
+    position: absolute;
+    top: 40%;
+    left: 60%;
+    line-height: 1.0;
+    color: #666666;
+}
+.banneroffer-content4{
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 45px;
+    position: absolute;
+    top: 50%;
+    left: 60%;
+    color: #666666;
+}
+
+.men2-btn{
+    position: absolute;
+    top: 65%;
+    left: 60%;
+}
+
+.men2-btn button{
+    width: 7rem;
+    height: 3rem;
+    font-weight: 600;
+    font-size: 15px;
+    text-transform: uppercase;
+    background-color: #333333;
+    color: white;
+    border: none;
+    border-radius: 8px;
+}
+
+.men2-btn button:hover{
+    background-color: rgb(248, 108, 108);
+    color: white;
+    text-decoration: underline;
+}

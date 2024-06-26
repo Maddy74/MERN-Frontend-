@@ -1,0 +1,263 @@
+.product-details-container{
+    width: 100%;
+    height: 130vh;
+}
+
+.display-left {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.thumbnails {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 40px;
+    margin-left: 20px;
+}
+.thumbnails img{
+    width: 5%;
+    height: auto;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.thumbnails img:hover {
+    transform: scale(1.2); 
+    opacity: 0.7; 
+}
+
+.productmain-img img{
+    width: 35%;
+    height: auto;
+    position: absolute;
+    top: 25%;
+    left: 8%;
+    border-radius: 10px;
+}
+
+.single-name{
+    position: absolute;
+    top: 30%;
+    left: 50%;
+}
+.single-name span{
+    font-family: "Poppins", sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 0.9;
+}
+
+.single-title{
+    position: absolute;
+    top: 35%;
+    left: 50%;
+}
+
+.single-title span{
+    font-family: "Poppins", sans-serif;
+    font-size: 25px;
+    font-weight: 500;
+    color: #535665;
+}
+
+.single-product-line{
+    width: 40%;
+    border: 1px solid #e5e5e5;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+}
+
+.single-prices{
+    display: flex;
+    justify-content: safe;
+    gap: 10px;
+    position: absolute;
+    top: 45%;
+    left: 50%;
+}
+.single-prices span{
+    font-family: "Poppins", sans-serif;
+    color: red;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.single-product-newprice{
+    font-family: "Poppins", sans-serif;
+    font-size: 25px;
+}
+.single-product-oldprice{
+    font-family: "Poppins", sans-serif;
+    text-decoration: line-through;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.tax {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+
+}
+.tax span{
+    font-family: "Poppins", sans-serif;
+    color: lightslategrey;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 2.5;
+}
+
+.select-size {
+    float: right;
+}
+.select-size h1{
+    font-family: "Poppins", sans-serif;
+    float: right;
+    font-size: 25px;
+    position: absolute;
+    top: 58%;
+    right: 40%;
+}
+
+.rightsize-btn{
+    position: absolute;
+    top: 67%;
+    right: 40%;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.cloth-sizes {
+    width: 30px;
+    height: auto;
+    outline: 2px solid grey;
+    border-radius: 10%;
+    cursor: pointer;
+    text-align: center;
+    position: relative;
+    left: 30%;
+}
+
+.cloth-sizes.selected{
+    background-color: lightblue; 
+  color: white;
+} 
+
+.wishlist-btn {
+    position: absolute;
+    top: 80%;
+    left: 50%;
+}
+.wishlist-btn img{
+    width: 40px;
+    height: auto;
+    cursor: pointer;
+}
+.buy-btn{
+    position: absolute;
+    top: 80%;
+    left: 55%;
+}
+.buy-btn button{
+    width: 15rem;
+    height: 3rem;
+    font-weight: 600;
+    font-size: 15px;
+    text-transform: uppercase;
+    background-color: #f7980a;
+    color: black;
+    border: none;
+    border-radius: 8px;
+}
+.buy-btn button:hover{
+    opacity: 0.5;
+    background-color: #f7980a;
+}
+
+.added-to-cart-message{
+    background-color: #28a745; /* Green to indicate success */
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+  text-align: center;
+  position: absolute; 
+  top: 20px; 
+  right: 20px; 
+  z-index: 10; 
+}
+.cart-btn{
+    position: absolute;
+    top: 80%;
+    left: 75%;
+}
+.cart-btn button{
+    width: 15rem;
+    height: 3rem;
+    font-weight: 600;
+    font-size: 15px;
+    text-transform: uppercase;
+    background-color: #273349;
+    color: white;
+    border: none;
+    border-radius: 8px;
+}
+.cart-btn button:hover{
+    opacity: 0.5;
+    background-color: #273349;
+}
+
+.pdetails{
+    position: absolute;
+    top: 92%;
+    left: 50%;
+}
+.pdetails span{
+    font-family: "Poppins", sans-serif;
+    font-size: 25px;
+    font-weight: 600;
+    line-height: 1.9;
+}
+
+.prod-descr{
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.4;
+}
+
+.material-care{
+    position: absolute;
+    top: 125%;
+    left: 50%;
+}
+.material-care span{
+    font-family: "Poppins", sans-serif;
+    font-size: 25px;
+    font-weight: 700;
+}
+.material-care p{
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+}
+.size{
+    position: absolute;
+    top: 140%;
+    left: 50%;
+}
+.size span{
+    font-family: "Poppins", sans-serif;
+    font-size: 25px;
+    font-weight: 700;
+}
+.size p{
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+}
