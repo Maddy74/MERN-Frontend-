@@ -2,7 +2,8 @@
 node_modules/
 
 # Environment variables
-config/.env
+config.env
+Backend/config.env
 .env
 .env.local
 .env.development.local
